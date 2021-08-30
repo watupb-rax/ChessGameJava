@@ -1,4 +1,4 @@
 # ChessGameJava
+Create a chess game for java
 
-## this project is mainly focused on creating a simple chess game 
-## that is playable with both human vs. cpu and human vs. human.
+The code here is to represent different spots on board

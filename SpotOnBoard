@@ -1,0 +1,46 @@
+# ChessGameJava
+
+## this project is mainly focused on creating a simple chess game 
+## that is playable with both human vs. cpu and human vs. human.
+
+## represent each spot on board
+public class Spot{
+private Piece piece;
+private int a;
+private int b;
+
+public Spot(int a, int b, Piece piece)
+{
+  this.setPiece(piece);
+  this.setA(a);
+  this.setB(b);
+}
+
+public Piece getPiece()
+{
+  return this.piece;
+}
+
+public void setPiece(Piece p)
+{
+  this.piece = p;
+}
+
+public int getA(){
+  return this.a;
+}
+
+public void setA(){
+  this.a = a;
+}
+
+public int getB(){
+return this.b;
+}
+
+public void setB(int b){
+this.b = b;
+}
+
+}
+
